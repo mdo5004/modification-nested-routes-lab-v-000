@@ -1,7 +1,8 @@
 require 'rails_helper'
-
+require 'pry'
 RSpec.describe Song, type: :model do
   before do
+      
     Artist.destroy_all
     Song.destroy_all
     @artist = Artist.create!(name: "Daft Punk")

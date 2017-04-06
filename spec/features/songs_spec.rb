@@ -1,3 +1,4 @@
+require_relative "../../app/models/artist"
 describe "songs", type:  :feature do
 
   before do
